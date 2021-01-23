@@ -1,15 +1,15 @@
 body {background-color: green;}
 
 .board {
-  width: 255px;
-  height: 255px;
+  width: 455px;
+  height: 455px;
   margin: auto;
   border: 10px solid black;
 }
 
 #first {
-width: 25px;
-height: 25px;
+width: 50px;
+height: 50px;
 float: left;
 text-align: center;
 font-size: 180%;
@@ -17,8 +17,8 @@ border-right: 5px solid black;
 }
 
 #second {
-width: 25px;
-height: 25px;
+width: 50px;
+height: 50px;
 float: left;
 text-align: center;
 font-size: 180%;
@@ -26,8 +26,8 @@ border-right: 5px solid black;
 }
 
 #third {
-width: 25px;
-height: 25px;
+width: 50px;
+height: 50px;
 float: left;
 text-align: center;
 font-size: 180%;
@@ -35,8 +35,8 @@ border-right: 5px solid black;
 }
 
 #fourth {
-width: 25px;
-height: 25px;
+width: 50px;
+height: 50px;
 float: left;
 text-align: center;
 font-size: 180%;
@@ -44,8 +44,8 @@ border-right: 5px solid black;
 }
 
 #fifth {
-width: 25px;
-height: 25px;
+width: 50px;
+height: 50px;
 float: left;
 text-align: center;
 font-size: 180%;
@@ -53,8 +53,8 @@ border-right: 5px solid black;
 }
 
 #sixth {
-width: 25px;
-height: 25px;
+width: 50px;
+height: 50px;
 float: left;
 text-align: center;
 font-size: 180%;
@@ -62,8 +62,8 @@ border-right: 5px solid black;
 }
 
 #seventh {
-width: 25px;
-height: 25px;
+width: 50px;
+height: 50px;
 float: left;
 text-align: center;
 font-size: 180%;
@@ -71,8 +71,8 @@ border-right: 5px solid black;
 }
 
 #eighth {
-width: 25px;
-height: 25px;
+width: 50px;
+height: 50px;
 float: left;
 text-align: center;
 font-size: 180%;
