@@ -1,17 +1,24 @@
 body {background-color: green;}
 
+.board {
+  width: 137px;
+  height: 137px;
+  margin: auto;
+  border: 5px solid black;
+}
+
 #first {
-width: 320px;
-height: 40px;
+width: 15px;
+height: 137px;
 float: left;
 text-align: center;
 font-size: 180%;
-border-right: 5px solid black;
+border-right: 1px solid black;
 }
 
 #second {
-width: 320px;
-height: 40px;
+width: 15px;
+height: 137px;
 float: left;
 text-align: center;
 font-size: 180%;
@@ -19,8 +26,8 @@ border-right: 5px solid black;
 }
 
 #third {
-width: 320px;
-height: 40px;
+width: 15px;
+height: 137px;
 float: left;
 text-align: center;
 font-size: 180%;
@@ -28,8 +35,8 @@ border-right: 5px solid black;
 }
 
 #fourth {
-width: 320px;
-height: 40px;
+width: 15px;
+height: 137px;
 float: left;
 text-align: center;
 font-size: 180%;
@@ -37,8 +44,8 @@ border-right: 5px solid black;
 }
 
 #fifth {
-width: 320px;
-height: 40px;
+width: 15px;
+height: 137px;
 float: left;
 text-align: center;
 font-size: 180%;
@@ -46,8 +53,8 @@ border-right: 5px solid black;
 }
 
 #sixth {
-width: 320px;
-height: 40px;
+width: 15px;
+height: 137px;
 float: left;
 text-align: center;
 font-size: 180%;
@@ -55,8 +62,8 @@ border-right: 5px solid black;
 }
 
 #seventh {
-width: 320px;
-height: 40px;
+width: 15px;
+height: 137px;
 float: left;
 text-align: center;
 font-size: 180%;
@@ -64,8 +71,8 @@ border-right: 5px solid black;
 }
 
 #eighth {
-width: 320px;
-height: 40px;
+width: 15px;
+height: 137px;
 float: left;
 text-align: center;
 font-size: 180%;
