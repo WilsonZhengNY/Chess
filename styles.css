@@ -1,19 +1,73 @@
 body {background-color: powderblue;}
 
 #first {
-
-width: 180px;
-
-height: 260px;
-
+width: 320px;
+height: 40px;
 float: left;
-
 text-align: center;
-
 font-size: 180%;
-
 border-right: 5px solid black;
+}
 
+#second {
+width: 320px;
+height: 40px;
+float: left;
+text-align: center;
+font-size: 180%;
+border-right: 5px solid black;
+}
 
+#third {
+width: 320px;
+height: 40px;
+float: left;
+text-align: center;
+font-size: 180%;
+border-right: 5px solid black;
+}
 
+#fourth {
+width: 320px;
+height: 40px;
+float: left;
+text-align: center;
+font-size: 180%;
+border-right: 5px solid black;
+}
+
+#fifth {
+width: 320px;
+height: 40px;
+float: left;
+text-align: center;
+font-size: 180%;
+border-right: 5px solid black;
+}
+
+#sixth {
+width: 320px;
+height: 40px;
+float: left;
+text-align: center;
+font-size: 180%;
+border-right: 5px solid black;
+}
+
+#seventh {
+width: 320px;
+height: 40px;
+float: left;
+text-align: center;
+font-size: 180%;
+border-right: 5px solid black;
+}
+
+#eighth {
+width: 320px;
+height: 40px;
+float: left;
+text-align: center;
+font-size: 180%;
+border-right: 5px solid black;
 }
