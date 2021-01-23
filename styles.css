@@ -1,1 +1,19 @@
+body {background-color: powderblue;}
 
+#first {
+
+width: 180px;
+
+height: 260px;
+
+float: left;
+
+text-align: center;
+
+font-size: 180%;
+
+border-right: 5px solid black;
+
+
+
+}
