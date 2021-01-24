@@ -78,8 +78,56 @@ text-align: center;
 font-size: 180%;
 }
 
-#a1 {
+#a1, #a2, #a3, #a4, #a5, #a6, #a7 {
   width: 50px;
   height: 50px;
   border-bottom: 5px solid black;
 }
+
+#b1, #b2, #b3, #b4, #b5, #b6, #b7 {
+  width: 50px;
+  height: 50px;
+  border-bottom: 5px solid black;
+}
+
+#c1, #c2, #c3, #c4, #c5, #c6, #c7 {
+  width: 50px;
+  height: 50px;
+  border-bottom: 5px solid black;
+}
+
+#d1, #d2, #d3, #d4, #d5, #d6, #d7 {
+  width: 50px;
+  height: 50px;
+  border-bottom: 5px solid black;
+}
+
+#e1, #e2, #e3, #e4, #e5, #e6, #e7 {
+  width: 50px;
+  height: 50px;
+  border-bottom: 5px solid black;
+}
+
+#f1, #f2, #f3, #f4, #f5, #f6, #f7 {
+  width: 50px;
+  height: 50px;
+  border-bottom: 5px solid black;
+}
+
+#g1, #g2, #g3, #g4, #g5, #g6, #g7 {
+  width: 50px;
+  height: 50px;
+  border-bottom: 5px solid black;
+}
+
+#h1, #h2, #h3, #h4, #h5, #h6, #h7 {
+  width: 50px;
+  height: 50px;
+  border-bottom: 5px solid black;
+}
+
+#a8, #b8, #c8, #d8, #e8, #f8, #g8, #h8 {
+  width: 50px;
+  height: 50px;
+}
+
