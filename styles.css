@@ -24,9 +24,16 @@ text-align: center;
 font-size: 180%;
 }
 
-#a1, #b1, #c1, #d1, #e1, #f1, #g1, #h1 {
+#a1, #c1, #e, #g1 {
   width: 50px;
   height: 50px;
+  background-color: gray;
+}
+
+#b1, #d1, #f1, #h1 {
+  width: 50px;
+  height: 50px;
+  background-color: white;
 }
 
 #a2, #a4, #a6, #a8, #b3, #b5, #b7, #c2, #c4, #c6, #c8, #d3, #d5, #d7 {
