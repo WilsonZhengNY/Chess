@@ -5,7 +5,7 @@ function select(name) {
 function select2(name, oldname) {
   var someimage = document.getElementById(oldname);
   var theimg = someimage.getElementsByTagName('img')[0];
-  var mysource = myimg.src;
+  var mysource = theimg.src;
   
   someimage.parentNode.removeChild(someimage);
   
