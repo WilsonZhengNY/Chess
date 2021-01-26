@@ -2,12 +2,13 @@ function select(name) {
   document.getElementById(name).style.background = "red";
 }
 
-function select2(name, oldname) {
+function select2(name, oldname, color) {
   var someimage = document.getElementById(oldname);
   var theimg = someimage.getElementsByTagName('img')[0];
   var mysource = theimg.src;
   
   theimg.parentNode.removeChild(theimg);
+  someimage.style.background = color;
   
   var img = document.createElement("img");
   img.src = mysource;
