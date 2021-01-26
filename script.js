@@ -2,7 +2,7 @@ function select(name) {
   document.getElementById(name).style.background = "red";
 }
 
-function select2(name, oldname, source) {
+function select2(name, oldname) {
   var someimage = document.getElementById(oldname);
   var theimg = someimage.getElementsByTagName('img')[0];
   var mysource = myimg.src;
