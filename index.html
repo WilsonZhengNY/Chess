@@ -160,10 +160,10 @@
 
                         $(document).click(function(event) {
                            var type = event.target.tagName;
-                           if (type == 'div') {
+                           if (type == 'DIV') {
                                    var button = event.target.getAttribute('id');
                            } else {
-                                   var button = event.target.parent().getAttribute('id');
+                                   var button = event.target.parentNode().getAttribute('id');
                            }
                                 select(button);
                         });
