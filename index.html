@@ -168,10 +168,13 @@ var old_button;
                            }
                            if (step == 0) {
                                    old_button = button;
+                                   console.log(step);
                                    step = 1;
+                                   console.log(step);
                                    select(button);
                            } else {
                                    step = 0;
+                                   console.log(old_button.text);
                                    select2(button, old_button);
                            }
                         });
