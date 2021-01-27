@@ -159,7 +159,12 @@
                 <script>
 
                         $(document).click(function(event) {
-                           var button = event.target.getAttribute('id');
+                           var type = event.target.tagName;
+                           if (type == 'div') {
+                                   var button = event.target.getAttribute('id');
+                           } else {
+                                   var button = event.target.parent().getAttribute('id');
+                           }
                                 select(button);
                         });
                         
