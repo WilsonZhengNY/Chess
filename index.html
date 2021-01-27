@@ -158,14 +158,12 @@
                 </div>
                 <script>
 
-                        
-                        $("#a1").click(function() {
-                                select("a1");
+                        $(document).click(function(event) {
+                           var button = $(event.target).text();
+                                select(button);
                         });
                         
-                        $("#a3").click(function() {
-                                select2("a3", "a1");    
-                        });
+
                 </script>
                 
         </body>
