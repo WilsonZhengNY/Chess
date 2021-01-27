@@ -157,7 +157,8 @@
                         </div>
                 </div>
                 <script>
-
+var old_button;
+                        var step = 0;
                         $(document).click(function(event) {
                            var type = event.target.tagName;
                            if (type == 'DIV') {
@@ -165,7 +166,14 @@
                            } else {
                                    var button = event.target.parentElement.getAttribute('id');
                            }
-                                select(button);
+                           if (step == 0) {
+                                   old_button = button;
+                                   step = 1;
+                                   select(button);
+                           } else {
+                                   step = 0;
+                                   select2(old_button, button);
+                           }
                         });
                         
 
