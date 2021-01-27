@@ -163,7 +163,7 @@
                            if (type == 'DIV') {
                                    var button = event.target.getAttribute('id');
                            } else {
-                                   var button = event.target.parentNode().getAttribute('id');
+                                   var button = event.target.parentElement.getAttribute('id');
                            }
                                 select(button);
                         });
