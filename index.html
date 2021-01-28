@@ -171,7 +171,10 @@ var old_button;
                                    console.log(step);
                                    step = 1;
                                    console.log(step);
-                                   select(button);
+                                   if ($(button).find('img').length) {
+                                           select(button);
+                                   } else {
+                                           step = 0;
                            } else {
                                    step = 0;
                                    console.log(old_button.text);
