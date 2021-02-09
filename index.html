@@ -181,7 +181,11 @@ var old_button;
                            } else {
                                    step = 0;
                                    console.log(old_button.text);
-                                   select2(button, old_button);
+                                   if (old_button == button) {
+                                           undo(button);
+                                   } else {
+                                           select2(button, old_button);
+                                   }
                            }
                         });
                         
