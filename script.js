@@ -5,6 +5,10 @@ function select(name) {
   document.getElementById(name).style.background = "red";
 }
 
+function undo(name) {
+ document.getElementById(name).style.background = color; 
+}
+
 function select2(name, oldname) {
   var someimage = document.getElementById(oldname);
   var theimg = someimage.getElementsByTagName('img')[0];
