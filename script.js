@@ -17,6 +17,6 @@ function select2(name, oldname) {
   img.src = mysource;
   var the_source = document.getElementById(name);
   var the_captured_piece = the_source.getElementsByTagName('img')[0];
-  the_source.parentNode.removeChild(the_captured_piece);
+  the_captured_piece.parentNode.removeChild(the_captured_piece);
   the_source.append(img);
 }
