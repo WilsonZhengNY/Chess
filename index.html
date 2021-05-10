@@ -168,9 +168,7 @@ $(document).click(function(event) {
         var type = event.target.tagName;
         if (type == 'DIV') {
                 var button = event.target.getAttribute('id');
-                var the_button = document.getElementById(button);
-                var the_img = the_button.getElementsByTagName('img')[0];
-                alt = the_img.alt;
+                alt = "correct";
         } else {
                 var button = event.target.parentElement.getAttribute('id');
                 var the_button = document.getElementById(button);
@@ -178,23 +176,18 @@ $(document).click(function(event) {
                 alt = the_img.alt;
         }
         
-        if ((turn == 0 && alt=="white") || (turn == 1 && alt=="black")) {
+        if ((turn == 0 && alt=="white") || (turn == 1 && alt=="black") || alt="correct") {
                 if (step == 0) {
-                old_button = button;
-                console.log(step);
-                step = 1;
-                console.log(step);
-                if ($(document.getElementById(button)).children('img').length) {
-                        console.log('a');
-                        select(button);
-                } else {
-                        console.log('b');
-                        step = 0;
-                }
-                        if (turn == 0) {
-                                turn = 1;
+                        old_button = button;
+                        console.log(step);
+                        step = 1;
+                        console.log(step);
+                        if ($(document.getElementById(button)).children('img').length) {
+                                console.log('a');
+                                select(button);
                         } else {
-                                turn = 0;
+                                console.log('b');
+                                step = 0;
                         }
                 } else {
                         step = 0;
