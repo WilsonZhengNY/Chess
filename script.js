@@ -35,41 +35,41 @@ var step = 0;
 var alt = "correct";
                         
 $(document).click(function(event) {
-        var type = event.target.tagName;
-        if (type == 'DIV') {
-                var button = event.target.getAttribute('id');
-                alt = "correct";
+    var type = event.target.tagName;
+    if (type == 'DIV') {
+        var button = event.target.getAttribute('id');
+        alt = "correct";
+    } else {
+        var button = event.target.parentElement.getAttribute('id');
+        var the_button = document.getElementById(button);
+        var the_img = the_button.getElementsByTagName('img')[0];
+        alt = the_img.alt;
+    }
+    
+    if (step == 0) {
+        if ((turn == 0 && alt=="white") || (turn == 1 && alt="black") || alt=="correct") {
+            old_button = button;
+            step = 1;
+            if ($(document.getElementById(button)).children('img').length) {
+                select(button);
+            } else {
+                step = 0;
+            }            
         } else {
-                var button = event.target.parentElement.getAttribute('id');
-                var the_button = document.getElementById(button);
-                var the_img = the_button.getElementsByTagName('img')[0];
-                alt = the_img.alt;
+            alert("It is not your turn!");
         }
-        
-        if ((turn == 0 && alt=="white") || (turn == 1 && alt=="black") || alt=="correct") {
-                if (step == 0) {
-                        old_button = button;
-                        step = 1;
-                        if ($(document.getElementById(button)).children('img').length) {
-                                select(button);
-                        } else {
-                                step = 0;
-                        }
-                } else {
-                        step = 0;
-                        if (old_button == button) {
-                                undo(button);
-                        } else {
-                                select2(button, old_button);
-                                if (turn == 0) {
-                                        turn = 1;
-                                } else {
-                                        turn = 0;
-                                }
-                        }
-                }                               
+    } else {
+        step = 0;
+        if (old_button == button) {
+            undo(button);
         } else {
-                alert("It is not your turn!");
+            select2(button, old_button);
+            if (turn == 0) {
+                turn = 1;
+            } else {
+                turn = 0;
+            }
         }
+    }
                     
 });  
