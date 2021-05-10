@@ -176,12 +176,14 @@ $(document).click(function(event) {
                 alt = the_img.alt;
         }
         
+        console.log(turn);
+        console.log(alt);
         if ((turn == 0 && alt=="white") || (turn == 1 && alt=="black") || alt=="correct") {
                 if (step == 0) {
                         old_button = button;
-                        console.log(step);
+                        //console.log(step);
                         step = 1;
-                        console.log(step);
+                        //console.log(step);
                         if ($(document.getElementById(button)).children('img').length) {
                                 console.log('a');
                                 select(button);
