@@ -47,7 +47,7 @@ $(document).click(function(event) {
     }
     
     if (step == 0) {
-        if ((turn == 0 && alt=="white") || (turn == 1 && alt="black") || alt=="correct") {
+        if ((turn == 0 && alt=="white") || (turn == 1 && alt=="black") || alt=="correct") {
             old_button = button;
             step = 1;
             if ($(document.getElementById(button)).children('img').length) {
